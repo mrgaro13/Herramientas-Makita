@@ -1,0 +1,100 @@
+/*.main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 60% 60% 60% 60%;
+}*/
+#que_desea {
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    text-align: center;
+
+
+}
+
+h5 {
+    text-align: center;
+}
+
+.card {
+    margin: 16px;
+}
+
+.container {
+    padding-top: 10px;
+
+    position: relative;
+    z-index: 0;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+.img_menu {
+    width: 50px;
+    height: 50px;
+    margin-left: -70px;
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color: #2585a4;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    color: #FFFF;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: #247893;
+
+}
+
+.img_milogo {
+    width: 48px;
+    height: 48px;
+
+}
+
+#btnaccion{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #555555;
+    border-radius: 5px;
+}
+
+#btnaccion:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.btnaccion{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.modal-title{
+    text-align: center;
+}

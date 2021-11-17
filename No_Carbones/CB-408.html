@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CB-408</title>
+    <link rel="stylesheet" type="text/css" href="../style/info_carb.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <p>CARBON CB-408</p> <br>
+    <!-- <div id="container">
+		<div id="left">
+			<img src="../imagenes/CB-408.jpg">
+		</div>
+		<div id="right">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	-->
+    <div class="container px-4">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3  ">
+                    <div class="nav flex-column nav-pills fff" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="../buscador.php" role="tab" aria-controls="v-pills-profile" aria-selected="true"><img class="img_menu" src="../imagenes/buscador.png" alt="" />&nbsp;&nbsp;&nbsp;Buscador</a>
+                        <br>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="../" role="tab" aria-controls="v-pills-profile" aria-selected="true"><img class="img_menu" src="../imagenes/carbonesa.png" alt="" />Carbones</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">
+                    <img id="myImg" src="../imagenes/CRB/408.jpg">
+                    <div id="popUp" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <br>
+                    <h5>No. Parte: CB-408</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light"><br>
+                    <p id="modelos">Informacion:</p>
+                    <table class="table table-bordered border-secundary">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Marca</th>
+                                <td>Makita</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Modelo</th>
+                                <td>195008-8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p id="modelos">Compatible con modelos:</p>
+                    <ul>
+                        <li>3707FC</li>
+                        <li>3709</li>
+                        <li>3901</li>
+                        <li>6832</li>
+                        <li>6834</li>
+                        <li>6846</li>
+                        <li>6922NB</li>
+                        <li>6951</li>
+                        <li>6953</li>
+                        <li>9031</li>
+                        <li>9032</li>
+                        <li>9500N</li>
+                        <li>9501B</li>
+                        <li>9505BH</li>
+                        <li>9523NBH</li>
+                        <li>9524</li>
+                        <li>9524NB</li>
+                        <li>9527</li>
+                        <li>9527PB</li>
+                        <li>9551</li>
+                        <li>9910</li>
+                        <li>9911</li>
+                        <li>DS4010</li>
+                        <li>DS4011</li>
+                        <li>JN1601</li>
+                        <li>KP0800</li>
+                        <li>MGA400</li>
+                        <li>MGA450</li>
+                        <li>MGA452</li>
+                        <li>MGD100</li>
+                        <li>MGD101</li>
+                        <li>MKP080</li>
+                        <li>MKP082</li>
+                        <li>MT190</li>
+                        <li>MT370</li>
+                        <li>MT910</li>
+                        <li>MT951</li>
+                        <li>MT952</li>
+                        <li>MTR100</li>
+                        <li>RT0700C</li>
+                        <li>TD0101F</li>
+                        <li>TW0200</li>
+                        <li>TW0350</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var modal = document.getElementById('popUp');
+
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    </script>
+</body>
+
+</html>

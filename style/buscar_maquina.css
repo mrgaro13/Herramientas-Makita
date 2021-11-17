@@ -1,0 +1,106 @@
+body {
+    background-color: #F21D2D;
+    font-family: Arial;
+}
+
+#main-container {
+    margin: 50px auto;
+    width: 90%;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    background-color: #2585A4;
+    color: #fff;
+    border-bottom: solid 5px #0F362D;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    cursor: pointer;
+    background-color: #81B6C8;
+    color: #474747;
+}
+
+#container {
+    margin: 50px auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left {
+    text-align: center;
+    width: 0%;
+    padding-left: 80px;
+    background-color: #DCDCDC;
+
+}
+
+#center {
+    width: 70%;
+    background-color: #DCDCDC;
+}
+
+#right {
+    width: 30%;
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: auto;
+}
+
+#img_ferre {
+    width: 90px;
+    height: 90px;
+    margin-top: 10%;
+}
+
+strong {
+    color: #636262;
+    font-family: sans-serif;
+
+}
+
+#img_makita {
+    width: 170px;
+    height: 220px;
+    cursor: pointer;
+}
+
+#img_carbones {
+    width: 170px;
+    height: 220px;
+    cursor: pointer;
+}
+#img_busqueda {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.buscar {
+    border: solid 2px #CCC;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+label {
+    color: #636262;
+    font-family: unset;
+    font-size: 18px;
+}
+
